@@ -5,7 +5,7 @@ const cors = require("cors");
 const {postRouter} = require("./routes/post");
 const {userRouter} = require("./routes/user");
 
-const port = process.env.PORT || 3000 || 5000;
+const port = process.env.PORT || 5000;
 const app = express();
 
 //transform to JSON the result
